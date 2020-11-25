@@ -1,4 +1,3 @@
-permalink: /index.html
 # Hinata Shouyou Portfolio
 
 One or two paragraphs providing an overview of your project. Tell us about your project.
