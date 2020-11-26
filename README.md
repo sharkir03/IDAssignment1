@@ -1,9 +1,6 @@
 # Hinata Shouyou Portfolio
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
- 
+This is a portfolio made for a fictional anime character - Hinata Shouyou. His particulars and personality were adjusted to fit into the proposed project idea for Assignment 1.
 ## Design Process
  
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -17,18 +14,16 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Features
 
-- Introduction: Personal Particulars of Hinata
-- Education & Work: Educations History and Work Experience of Hinata
-- Personal Works: Personal projects done by Hinata
+- Introduction - Personal Particulars of Hinata
+- Education & Work - Educations History and Work Experience of Hinata
+- Personal Works - Personal projects done by Hinata
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
+- Introduction - Personal Particulars of Hinata
+- Education & Work - Educations History and Work Experience of Hinata
+- Personal Works - Personal projects done by Hinata
 ### Features Left to Implement
-- Another feature idea
+- More contact options
 
 ## Technologies Used
 
@@ -40,30 +35,33 @@ In addition, you may also use this section to discuss plans for additional featu
     - The project uses **Adobe Fonts** to create font for the body.
 
 ## Testing
+1. Website Navigation:
+    1. Go to the "Introduction" page
+    2. Click "Education & Works" button.
+    3. Go to "Education & Works" page.
+    4. Click "Personal Works" button.
+    5. Go to "Personal Works" page.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- Project fits into most browser sizes, although the arrangement can be a little off on the smaller ones.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- I have not discovered any bugs so far. Unless I missed them, because I don't really know how to spot any.
 ## Credits
 - Muhammad Nur Syakir Bin Muzakir
+- Wikipedia
+- animess
+- creazilla
+- WALLPAPERUP
+- Me Pixels
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- No copied texts.
 
 ### Media
-- The photos used in this site were obtained from [animess on weheartit](https://weheartit.com/entry/163728038)
+- A photo used in this site was obtained from [animess on weheartit](https://weheartit.com/entry/163728038)
 - The background used in this site was obtained from [Coolhue on Github](https://webkul.github.io/coolhue/)
-
+- A photo used in this site was obtained from [creazilla](https://creazilla.com/nodes/64310-low-poly-man-3d-model)
+- A photo used in this site was obtained from [Wiikipedia Commons](https://commons.wikimedia.org/wiki/File:3D_model_of_Excalibur_Morgan_(Fate_stay_night)_2019-11-12.png)
+- A photo used in this site was obtained from [WALLPAPERUP](https://www.wallpaperup.com/1048473/Sword_Art_Online_(62).html)
+- A photo used in this site was obtained from [Me Pixels](https://www.mepixels.com/photo/anime-gamer-girl-793)
 ### Acknowledgements
 
-- I received inspiration for this project from Letrodo Rojean Macabenta.
+- I received inspiration for this project from myself.
