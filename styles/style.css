@@ -357,7 +357,7 @@ html {
     display: flex;
     justify-content: center;
     background-color:	black;
-    font-size: 50px;
+    font-size: 40px;
     border: none;
     color: #79F1A4;
     padding: 30px;
@@ -744,7 +744,7 @@ header {
   align-items: center;
   /*border: 3px solid black;*/
   border-radius: 50%;
-  max-width: 30%;
+  max-width: 27%;
 }
 .pg2 {
   border: none;
@@ -769,12 +769,12 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 0px 25px;
+  padding: 0px 23px;
   /*border: 2px solid black;*/
   width: 40%;
   position: relative;
   left: 868px;
-  bottom: 0px;
+  bottom: 28px;
 }
 .btm {
   display: flex;
@@ -806,7 +806,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 253px;
+  height: 230px;
   width: 700px;
   padding: 50px;
   /*border: 2px solid black;*/
@@ -821,12 +821,13 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 50px;
+  /*padding: 50px;*/
   /*border: 2px solid black;*/
+  width: 1490px;
 }
 .pg3 {
   border: none;
-  padding: 16px 625px;
+  padding: 16px 620px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -845,13 +846,9 @@ header {
 }
 .sbutton {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding: 0px 25px;
+  justify-content: center;
   /*border: 2px solid black;*/
-  position: relative;
-  left: 0px;
-  bottom: 0px;
+  width: 1490px;
 }
 /*ENDPAGE2*/
 /*PAGE3*/

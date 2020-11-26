@@ -42,7 +42,7 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
     4. Click "Personal Works" button.
     5. Go to "Personal Works" page.
 
-- Project fits into most browser sizes, although the arrangement can be a little off on the smaller ones.
+- Realised that I didn't cater to when the browser has bookmarks tab open. Issue fixed, I hope.
 
 - I have not discovered any bugs so far. Unless I missed them, because I don't really know how to spot any.
 ## Credits
