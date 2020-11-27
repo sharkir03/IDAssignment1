@@ -30,7 +30,7 @@ html {
     /*border: 2px solid black;*/
     list-style-type: none; 
     margin: 0;
-    font-size: 12px; /*change*/
+    font-size: 15px; /*change*/
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -40,7 +40,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 50%;
     max-width: 20%; /*change*/
   }
@@ -50,7 +50,7 @@ html {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 12px; /*change*/
+    font-size: 13px; /*change*/
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -75,7 +75,7 @@ html {
     justify-content: space-between;
     color: #79F1A4;
     background-color: black;
-    font-size: 12px;
+    font-size: 13px;
     padding: 30px 20px;
     border: none;
     position: fixed;
@@ -112,7 +112,7 @@ html {
     /*border: 2px solid black;*/
     list-style-type: none; 
     margin: 0px;
-    font-size: 10px;
+    font-size: 13px;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -130,7 +130,7 @@ html {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 12px; /*change*/
+    font-size: 13px; /*change*/
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -215,7 +215,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 50%;
     max-width: 20%; /*change*/
   }

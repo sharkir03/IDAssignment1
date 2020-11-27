@@ -42,7 +42,7 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
     4. Click "Personal Works" button.
     5. Go to "Personal Works" page.
 
-- Realised that I didn't cater to when the browser has bookmarks tab open. Issue fixed, I hope.
+- Realised that I didn't cater to when the browser has bookmarks tab open. Issue fixed, I hope. Font size looks really small on a phone screen but if I make it bigger it seems to be very badly arranged. 
 
 - I have not discovered any bugs so far. Unless I missed them, because I don't really know how to spot any.
 ## Credits
