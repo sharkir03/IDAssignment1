@@ -12,6 +12,7 @@ Website is made for a fictional character Hinata Shouyou.
 - Introduction - Personal Particulars of Hinata
 - Education & Work - Educations History and Work Experience of Hinata
 - Personal Works - Personal projects done by Hinata
+- More contact options
  
 ### Existing Features
 - Introduction - Personal Particulars of Hinata
