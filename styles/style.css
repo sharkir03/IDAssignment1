@@ -1,8 +1,11 @@
+/*Background*/
 html {
   background-image: linear-gradient(135deg, #79F1A4 10%, #0E5CAD 100%);
   overflow: hidden;
+  height: 100%;
 }
 @media screen and (max-width: 576px) {
+  /*Header*/
   header {
     display: flex;
     justify-content: center;
@@ -13,13 +16,14 @@ html {
     padding: 30px;
     font-family: 'Josefin Sans', sans-serif;
   }
+  /*Flexbox for both image and particulars*/
   .intro {
     display: flex;
-    flex-direction: column-reverse;/*change*/
-    align-items: center; /*change*/
-    /*border: 2px solid black;*/
+    flex-direction: column-reverse;
+    align-items: center; 
     height: 55%;
   }
+  /*Particulars*/
   .main {
     display: flex;
     flex-direction: column;
@@ -27,14 +31,14 @@ html {
     align-items: center;
     width: 50%;
     padding: 50px;
-    /*border: 2px solid black;*/
     list-style-type: none; 
     margin: 0;
-    font-size: 15px; /*change*/
+    font-size: 15px; 
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
   }
+  /*Image*/
   .img {
     display: flex;
     flex-direction: column;
@@ -42,33 +46,36 @@ html {
     align-items: center;
     border: 2px solid black;
     border-radius: 50%;
-    max-width: 20%; /*change*/
+    max-width: 20%; 
   }
+  /*Button Sizing*/
   .pg2 {
     border: none;
-    padding: 20px 80px; /*change*/
+    padding: 20px 80px; 
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 13px; /*change*/
+    font-size: 13px; 
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: transparent; 
-    border: 3px solid black; /*change*/
+    border: 3px solid black; 
     border-radius: 80px;
     font-family: 'Encode Sans', sans-serif;
   }
+  /*Button Animation*/
   .pg2:hover {
     background-color: #54dac1;
     color: black;
   }
-  .edbutton { /*change*/
+  /*Button Position*/
+  .edbutton { 
     display: flex;
     justify-content: center;
-    /*border: 2px solid black;*/
     width: 100%;
   }
+  /*Footer*/
   .btm {
     display: flex;
     flex-direction: column;
@@ -84,12 +91,14 @@ html {
     width: 100%;
     font-family: 'Josefin Sans', sans-serif;
   }
+  /*Universal Nav*/
   .uni-nav {
     display: flex;
     height: 20px;
     position: absolute;
     right: 80px;
   }
+  /*Social Media Logo*/
   .fa-instagram {
     border: none;
     padding: 3px 10px;
@@ -101,15 +110,15 @@ html {
   }
   /*ENDPAGE1*/
   /*PAGE2*/
+  /*Education & Work Experience Sizing*/
   .edu, .werk {
     display: flex;
-    flex-direction: column; /*change*/
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     height: 253px;
     width: 700px;
     padding: 50px;
-    /*border: 2px solid black;*/
     list-style-type: none; 
     margin: 0px;
     font-size: 13px;
@@ -117,55 +126,60 @@ html {
     font-weight: 300;
     font-style: normal;
   }
+  /*Spacing for Education & Work Experience*/
   .main2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 50px;
-    /*border: 2px solid black;*/
   }
+  /*Button Sizing*/
   .pg3 {
     border: none;
-    padding: 20px 100px; /*change*/
+    padding: 20px 100px; 
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 13px; /*change*/
+    font-size: 13px; 
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: transparent; 
-    border: 3px solid black; /*change*/
+    border: 3px solid black; 
     border-radius: 80px;
     font-family: 'Encode Sans', sans-serif;
   }
+  /*Button Animation*/
   .pg3:hover {
     background-color: #54dac1;
     color: black;
   }
+  /*Button Position*/
   .sbutton {
     display: flex;
-    justify-content: center; /*change*/
+    justify-content: center; 
     padding: 0px 40px;
-    /*border: 2px solid black;*/
+    
     position: relative;
     left: 0px;
     bottom: 0px;
   }
   /*ENDPAGE2*/
   /*PAGE3*/
+  /*Flexbox for body*/
   .works {
     box-sizing: border-box;
   }
-  
+  /*Flexbox for all images*/
   .imgrow {
     display: flex;
   }
-  
+  /*Images Position*/
   .imgcolumn {
     flex: 33.33%;
     padding: 5px;
   }
+  /*Images Names*/
   .descriptions {
     display: flex;
     justify-content: space-around;
@@ -178,6 +192,7 @@ html {
   /*ENDPAGE3*/
 }
 @media screen and (min-width: 576px) {
+  /*Header*/
   header {
     display: flex;
     justify-content: center;
@@ -188,13 +203,14 @@ html {
     padding: 30px;
     font-family: 'Josefin Sans', sans-serif;
   }
+  /*Flexbox for both image and particulars*/
   .intro {
     display: flex;
-    flex-direction: column-reverse;/*change*/
-    align-items: center; /*change*/
-    /*border: 2px solid black;*/
+    flex-direction: column-reverse;
+    align-items: center; 
     height: 55%;
   }
+  /*Particulars*/
   .main {
     display: flex;
     flex-direction: column;
@@ -202,14 +218,14 @@ html {
     align-items: center;
     width: 50%;
     padding: 50px;
-    /*border: 2px solid black;*/
     list-style-type: none; 
     margin: 0;
-    font-size: 15px; /*change*/
+    font-size: 15px; 
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
   }
+  /*Image*/
   .img {
     display: flex;
     flex-direction: column;
@@ -217,33 +233,36 @@ html {
     align-items: center;
     border: 2px solid black;
     border-radius: 50%;
-    max-width: 20%; /*change*/
+    max-width: 20%; 
   }
+  /*Button Sizing*/
   .pg2 {
     border: none;
-    padding: 20px 80px; /*change*/
+    padding: 20px 80px; 
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 15px; /*change*/
+    font-size: 15px; 
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: transparent; 
-    border: 3px solid black; /*change*/
+    border: 3px solid black; 
     border-radius: 80px;
     font-family: 'Encode Sans', sans-serif;
   }
+  /*Button Animation*/
   .pg2:hover {
     background-color: #54dac1;
     color: black;
   }
-  .edbutton { /*change*/
+  /*Button Postion*/
+  .edbutton { 
     display: flex;
     justify-content: center;
-    /*border: 2px solid black;*/
     width: 100%;
   }
+  /*Footer*/
   .btm {
     display: flex;
     flex-direction: row;
@@ -259,12 +278,14 @@ html {
     width: 100%;
     font-family: 'Josefin Sans', sans-serif;
   }
+  /*Universal Navigation*/
   .uni-nav {
     display: flex;
     height: 20px;
     position: absolute;
     right: 80px;
   }
+  /*Social Media Logo*/
   .fa-instagram {
     border: none;
     padding: 3px 10px;
@@ -276,15 +297,15 @@ html {
   }
   /*ENDPAGE1*/
   /*PAGE2*/
+  /*Education & Work Experience Sizing*/
   .edu, .werk {
     display: flex;
-    flex-direction: column; /*change*/
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     height: 253px;
     width: 700px;
     padding: 50px;
-    /*border: 2px solid black;*/
     list-style-type: none; 
     margin: 0px;
     font-size: 15px;
@@ -292,55 +313,59 @@ html {
     font-weight: 300;
     font-style: normal;
   }
+  /*Education & Work Experience Arrangement*/
   .main2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 50px;
-    /*border: 2px solid black;*/
   }
+  /*Button Sizing*/
   .pg3 {
     border: none;
-    padding: 20px 220px; /*change*/
+    padding: 20px 220px; 
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 15px; /*change*/
+    font-size: 15px; 
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: transparent; 
-    border: 3px solid black; /*change*/
+    border: 3px solid black; 
     border-radius: 80px;
     font-family: 'Encode Sans', sans-serif;
   }
+  /*Button Animation*/
   .pg3:hover {
     background-color: #54dac1;
     color: black;
   }
+  /*Button Position*/
   .sbutton {
     display: flex;
-    justify-content: center; /*change*/
+    justify-content: center; 
     padding: 0px 40px;
-    /*border: 2px solid black;*/
     position: relative;
     left: 0px;
     bottom: 0px;
   }
   /*ENDPAGE2*/
   /*PAGE3*/
+  /*Flexbox for body*/
   .works {
     box-sizing: border-box;
   }
-  
+  /*Flexbox for all images*/
   .imgrow {
     display: flex;
   }
-  
+  /*All images*/
   .imgcolumn {
     flex: 33.33%;
     padding: 5px;
   }
+  /*Images Names*/
   .descriptions {
     display: flex;
     justify-content: space-around;
@@ -353,6 +378,7 @@ html {
   /*ENDPAGE3*/
 }
 @media (min-width:768px) {
+  /*Header*/
   header {
     display: flex;
     justify-content: center;
@@ -363,13 +389,14 @@ html {
     padding: 30px;
     font-family: 'Josefin Sans', sans-serif;
   }
+  /*Flexbox for image and particulars*/
   .intro {
     display: flex;
-    flex-direction: column-reverse;/*change*/
-    align-items: center; /*change*/
-    /*border: 2px solid black;*/
+    flex-direction: column-reverse;
+    align-items: center; 
     height: 55%;
   }
+  /*Particulars*/
   .main {
     display: flex;
     flex-direction: column;
@@ -377,14 +404,14 @@ html {
     align-items: center;
     width: 50%;
     padding: 50px;
-    /*border: 2px solid black;*/
     list-style-type: none; 
     margin: 0;
-    font-size: 20px; /*change*/
+    font-size: 20px; 
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
   }
+  /*Image*/
   .img {
     display: flex;
     flex-direction: column;
@@ -392,33 +419,36 @@ html {
     align-items: center;
     border: 3px solid black;
     border-radius: 50%;
-    max-width: 20%; /*change*/
+    max-width: 20%; 
   }
+  /*Button Sizing*/
   .pg2 {
     border: none;
-    padding: 20px 130px; /*change*/
+    padding: 20px 130px; 
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 20px; /*change*/
+    font-size: 20px; 
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: transparent; 
-    border: 3px solid black; /*change*/
+    border: 3px solid black; 
     border-radius: 80px;
     font-family: 'Encode Sans', sans-serif;
   }
+  /*Button Animation*/
   .pg2:hover {
     background-color: #54dac1;
     color: black;
   }
-  .edbutton { /*change*/
+  /*Button Position*/
+  .edbutton { 
     display: flex;
     justify-content: center;
-    /*border: 2px solid black;*/
     width: 100%;
   }
+  /*Footer*/
   .btm {
     display: flex;
     flex-direction: row;
@@ -434,12 +464,14 @@ html {
     width: 100%;
     font-family: 'Josefin Sans', sans-serif;
   }
+  /*Universal Navigation*/
   .uni-nav {
     display: flex;
     height: 20px;
     position: absolute;
     right: 80px;
   }
+  /*Social Media Logo*/
   .fa-instagram {
     border: none;
     padding: 3px 10px;
@@ -451,15 +483,15 @@ html {
   }
   /*ENDPAGE1*/
   /*PAGE2*/
+  /*Education & Work Sizing*/
   .edu, .werk {
     display: flex;
-    flex-direction: column; /*change*/
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     height: 253px;
     width: 700px;
     padding: 50px;
-    /*border: 2px solid black;*/
     list-style-type: none; 
     margin: 0px;
     font-size: 20px;
@@ -467,55 +499,60 @@ html {
     font-weight: 300;
     font-style: normal;
   }
+  /*Education & Work Arrangement*/
   .main2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 50px;
-    /*border: 2px solid black;*/
   }
+  /*Button*/
   .pg3 {
     border: none;
-    padding: 20px 320px; /*change*/
+    padding: 20px 320px; 
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 20px; /*change*/
+    font-size: 20px; 
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: transparent; 
-    border: 3px solid black; /*change*/
+    border: 3px solid black; 
     border-radius: 80px;
     font-family: 'Encode Sans', sans-serif;
   }
+  /*Button Animation*/
   .pg3:hover {
     background-color: #54dac1;
     color: black;
   }
+  /*Button Position*/
   .sbutton {
     display: flex;
-    justify-content: center; /*change*/
+    justify-content: center; 
     padding: 0px 40px;
-    /*border: 2px solid black;*/
+    
     position: relative;
     left: 0px;
     bottom: 0px;
   }
   /*ENDPAGE2*/
   /*PAGE3*/
+  /*Flexbox for body*/
   .works {
     box-sizing: border-box;
   }
-  
+  /*Flexbox for all images*/
   .imgrow {
     display: flex;
   }
-  
+  /*All images*/
   .imgcolumn {
     flex: 33.33%;
     padding: 5px;
   }
+  /*Images Names*/
   .descriptions {
     display: flex;
     justify-content: space-around;
@@ -528,6 +565,7 @@ html {
   /*ENDPAGE3*/
 }
 @media (min-width:992px) {
+/*Header*/
 header { 
   display: flex;
   justify-content: center;
@@ -538,13 +576,14 @@ header {
   padding: 30px;
   font-family: 'Josefin Sans', sans-serif;
 }
+/*Flexbox for image and particulars*/
 .intro {
   display: flex;
-  flex-direction: column-reverse;/*change*/
-  align-items: center; /*change*/
-  /*border: 2px solid black;*/
+  flex-direction: column-reverse;
+  align-items: center; 
   height: 58%;
 }
+/*Particulars*/
 .main {
   display: flex;
   flex-direction: column;
@@ -552,14 +591,14 @@ header {
   align-items: center;
   width: 50%;
   padding: 50px;
-  /*border: 2px solid black;*/
   list-style-type: none; 
   margin: 0;
-  font-size: 20px; /*change*/
+  font-size: 20px; 
   font-family: neue-haas-unica, sans-serif;
   font-weight: 300;
   font-style: normal;
 }
+/*Image*/
 .img {
   display: flex;
   flex-direction: column;
@@ -567,33 +606,36 @@ header {
   align-items: center;
   border: 3px solid black;
   border-radius: 50%;
-  max-width: 20%; /*change*/
+  max-width: 20%; 
 }
+/*Button Sizing*/
 .pg2 {
   border: none;
-  padding: 20px 130px; /*change*/
+  padding: 20px 130px; 
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  font-size: 20px; /*change*/
+  font-size: 20px; 
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: transparent; 
-  border: 3px solid black; /*change*/
+  border: 3px solid black; 
   border-radius: 80px;
   font-family: 'Encode Sans', sans-serif;
 }
+/*Button Animation*/
 .pg2:hover {
   background-color: #54dac1;
   color: black;
 }
-.edbutton { /*change*/
+/*Button Positionr*/
+.edbutton { 
   display: flex;
   justify-content: center;
-  /*border: 2px solid black;*/
   width: 100%;
 }
+/*Footer*/
 .btm {
   display: flex;
   flex-direction: row;
@@ -609,12 +651,14 @@ header {
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
 }
+/*Universal Navigation*/
 .uni-nav {
   display: flex;
   height: 20px;
   position: absolute;
   right: 80px;
 }
+/*Social Media Logo*/
 .fa-instagram {
   border: none;
   padding: 3px 10px;
@@ -626,15 +670,15 @@ header {
 }
 /*ENDPAGE1*/
 /*PAGE2*/
+/*Education & Work Experience Sizing*/
 .edu, .werk {
   display: flex;
-  flex-direction: column; /*change*/
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   height: 253px;
   width: 700px;
   padding: 50px;
-  /*border: 2px solid black;*/
   list-style-type: none; 
   margin: 0px;
   font-size: 23px;
@@ -642,56 +686,60 @@ header {
   font-weight: 300;
   font-style: normal;
 }
+/*Education & Work Experience Arrangement*/
 .main2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 50px;
-  /*border: 2px solid black;*/
 }
+/*Button Sizing*/
 .pg3 {
   border: none;
-  padding: 20px 380px; /*change*/
+  padding: 20px 380px; 
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  font-size: 20px; /*change*/
+  font-size: 20px; 
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: transparent; 
-  border: 3px solid black; /*change*/
+  border: 3px solid black; 
   border-radius: 80px;
   font-family: 'Encode Sans', sans-serif;
 }
+/*Button Animation*/
 .pg3:hover {
   background-color: #54dac1;
   color: black;
 }
+/*Button Position*/
 .sbutton {
   display: flex;
-  justify-content: center; /*change*/
+  justify-content: center; 
   padding: 0px 25px;
-  /*border: 2px solid black;*/
   position: relative;
   left: 0px;
   bottom: 0px;
 }
 /*ENDPAGE2*/
 /*PAGE3*/
+/*Flexbox for body*/
 .works {
   box-sizing: border-box;
 }
-
+/*Flexbox for all images*/
 .imgrow {
   display: flex;
   align-items: center;
 }
-
+/*All images*/
 .imgcolumn {
   flex: 33.33%;
   padding: 5px;
 }
+/*Images Names*/
 .descriptions {
   display: flex;
   justify-content: space-around;
@@ -704,6 +752,7 @@ header {
 /*ENDPAGE3*/
 }
 @media (min-width: 1200px) {
+/*Header*/
 header {
   display: flex;
   justify-content: center;
@@ -714,13 +763,14 @@ header {
   padding: 30px;
   font-family: 'Josefin Sans', sans-serif;
 }
+/*Flexbox for image and particulars*/
 .intro {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /*border: 2px solid black;*/
   height: auto;
 }
+/*Particulars*/
 .main {
   display: flex;
   flex-direction: column;
@@ -729,7 +779,6 @@ header {
   height: 360px;
   width: 50%;
   padding: 50px;
-  /*border: 2px solid black;*/
   list-style-type: none; 
   margin: 0;
   font-size: 30px;
@@ -737,15 +786,16 @@ header {
   font-weight: 300;
   font-style: normal;
 }
+/*Image*/
 .img {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*border: 3px solid black;*/
   border-radius: 50%;
   max-width: 27%;
 }
+/*Button Sizing*/
 .pg2 {
   border: none;
   padding: 16px 120px;
@@ -761,21 +811,23 @@ header {
   border-radius: 80px;
   font-family: 'Encode Sans', sans-serif;
 }
+/*Button Animation*/
 .pg2:hover {
   background-color: #54dac1;
   color: black;
 }
+/*Button Position*/
 .edbutton {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   padding: 0px 23px;
-  /*border: 2px solid black;*/
   width: 40%;
   position: relative;
   left: 868px;
   bottom: 28px;
 }
+/*Footer*/
 .btm {
   display: flex;
   flex-direction: row;
@@ -790,6 +842,7 @@ header {
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
 }
+/*Social Media Logo*/
 .fa-instagram {
   border: none;
   padding: 3px 10px;
@@ -801,6 +854,7 @@ header {
 }
 /*ENDPAGE1*/
 /*PAGE2*/
+/*Education & Work Experience Sizing*/
 .edu, .werk {
   display: flex;
   flex-direction: column;
@@ -809,7 +863,6 @@ header {
   height: 230px;
   width: 700px;
   padding: 50px;
-  /*border: 2px solid black;*/
   list-style-type: none; 
   margin: 0px;
   font-size: 23px;
@@ -817,14 +870,14 @@ header {
   font-weight: 300;
   font-style: normal;
 }
+/*Education & Work Experience Arrangement*/
 .main2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /*padding: 50px;*/
-  /*border: 2px solid black;*/
   width: 1490px;
 }
+/*Button Sizing*/
 .pg3 {
   border: none;
   padding: 16px 620px;
@@ -840,31 +893,34 @@ header {
   border-radius: 80px;
   font-family: 'Encode Sans', sans-serif;
 }
+/*Button Animation*/
 .pg3:hover {
   background-color: #54dac1;
   color: black;
 }
+/*Button Position*/
 .sbutton {
   display: flex;
   justify-content: center;
-  /*border: 2px solid black;*/
   width: 1490px;
 }
 /*ENDPAGE2*/
 /*PAGE3*/
+/*Flexbox for body*/
 .works {
   box-sizing: border-box;
 }
-
+/*Flexbox for all images*/
 .imgrow {
   display: flex;
   align-items: center;
 }
-
+/*All images*/
 .imgcolumn {
   flex: 33.33%;
   padding: 5px;
 }
+/*Images Names*/
 .descriptions {
   display: flex;
   justify-content: space-around;

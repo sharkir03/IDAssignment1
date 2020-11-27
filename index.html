@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <!--Links to fonts-->
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -7,26 +10,33 @@
         <link rel="stylesheet" href="https://use.typekit.net/xdd7oep.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap" rel="stylesheet">
-        <header>Introduction</header>
+        <title>Introduction Page</title>
     </head>
     <body>
-        <section class="intro">
+        <!--Heading-->
+        <header>Introduction</header>
+        <!--Particulars-->
+        <div class="intro">
             <ul class="main">
                 <li>Name: Hinata Shouyou</li>
                 <li>Age: 24</li>
                 <li>Nationality: Japanese</li>
                 <li>Aspirations: Professional Web Developer</li>
             </ul>
+            <!--Image-->
             <img src="images/hinata.jpg" class="img" alt="Hinata Shouyou Image">
-        </section>
+        </div>
+        <!--Button for next page-->
         <nav class="edbutton">
-            <a href="page2.html"><button class="pg2">Education & Work</button></a>
+            <button class="pg2" onclick="document.location='page2.html'">Education & Work</button>
         </nav>
+        <!--Footer-->
         <footer class="btm">
             <nav class="contact">
             Contact Me: <a href="https://www.instagram.com/_shark.ir_" class="fa fa-instagram"></a>
             </nav>
-            <section class="uni-nav">
+            <!--Universal Navigation-->
+            <div class="uni-nav">
                 <nav>
                     <a href="index.html" class="uni-intro">Introduction |</a>
                 </nav>
@@ -36,7 +46,7 @@
                 <nav>
                     <a href="page3.html" class="uni-works">| Personal Works</a>
                 </nav>
-            </section>
+            </div>
         </footer>
     </body>
 </html>

@@ -1,17 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <!--Links to fonts-->
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/xdd7oep.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap" rel="stylesheet">
-        <header>Education & Work</header>
+        <title>Education & Work Page</title>
     </head>
     <body>
-        <section class="main2">
+        <!--Heading-->
+        <header>Education & Work</header>
+        <!--Education-->
+        <div class="main2">
             <ul class="edu">
-                <p class="edu2">Education:</p>
+                <li>Education:</li>
                 <li>Primary Education: Shuqun Primary</li>
                 <li>Primary School Club: Volleyball Club</li>
                 <li>Secondary Education: Hua Yi Secondary</li>
@@ -19,22 +25,26 @@
                 <li>Tertiary Education: Ngee Ann Polytechnic, Immersive Media</li>
                 <li>Polytechnic Club: Volleyball Club</li>
             </ul>
+            <!--Work Experience-->
             <ul class="werk">
-                <p class="werk2">Work Experience:</p>
+                <li>Work Experience:</li>
                 <li>Web Designer</li>
                 <li>3D Artist</li>
                 <li>Game Designer</li>
                 <li>Freelance Visual Illustrator</li>
             </ul>
-        </section>
+        </div>
+        <!--Button for next page-->
         <nav class="sbutton">
-            <a href="page3.html"><button class="pg3">Personal Works</button></a>
+            <button class="pg3" onclick="document.location='page3.html'">Personal Works</button>
         </nav>
+        <!--Footer-->
         <footer class="btm">
             <nav class="contact">
                 Contact Me: <a href="https://www.instagram.com/_shark.ir_" class="fa fa-instagram"></a>
             </nav>
-            <section class="uni-nav">
+            <!--Universal Navigation-->
+            <div class="uni-nav">
                 <nav>
                     <a href="index.html" class="uni-intro">Introduction |</a>
                 </nav>
@@ -44,7 +54,7 @@
                 <nav>
                     <a href="page3.html" class="uni-works">| Personal Works</a>
                 </nav>
-            </section>
+            </div>
         </footer>
     </body>
 </html>
